@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.header {
+    background: linear-gradient(120deg, #3b2600, #764c00);
+    height: 12vh;
+    width: 100%;
+
+}
+
+.header-text {
+    font-size: 3em;
+    color: silver;
+    padding: 0.9em;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.list {
+    text-decoration: none;
+}
+
+.list li {
+    display: inline-block;
+    font-size: 1.8em;
+    margin-left: 8em;
+    padding-top: 1.7em;
+
+}
+
+.list li a {
+    color: #fff;
+}
+
+#hero-page {
+    height: 90vh;
+    background-color: #55200b;
+    z-index: 4;
+}
+
+.hero-text {
+    font-size: 4em;
+    color: #fff;
+    margin: 0 2em;
+    padding-top: 3em;
+}
+
+.intro-text {
+    font: 3em bold;
+    text-align: center;
+}
